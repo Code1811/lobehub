@@ -22,6 +22,7 @@ const standaloneConfig: NextConfig = {
 const assetPrefix = process.env.NEXT_PUBLIC_ASSET_PREFIX;
 
 const nextConfig: NextConfig = {
+  staticPageGenerationTimeout: 500,
   ...(isStandaloneMode ? standaloneConfig : {}),
   assetPrefix,
   compiler: {
