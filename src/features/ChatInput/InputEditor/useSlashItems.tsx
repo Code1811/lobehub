@@ -1,4 +1,4 @@
-import {
+  import {
   INSERT_HEADING_COMMAND,
   INSERT_HORIZONTAL_RULE_COMMAND,
   INSERT_MATH_COMMAND,
@@ -83,7 +83,7 @@ export const useSlashItems = (): SlashOptions['items'] => {
         ...item,
         extra: (
           <Text code fontSize={12} type={'secondary'}>
-            {item.key}
+            {String(item.key)}
           </Text>
         ),
       };
