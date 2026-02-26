@@ -2,7 +2,7 @@
 
 This is a specialized fork of LobeChat v1.x, meticulously patched to work on **Vercel Free Tier** without the need for a PostgreSQL database or complex server-side authentication.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/tree/v1last&env=ACCESS_CODE,GOOGLE_API_KEY,KEY_VAULTS_SECRET&project-name=lobe-chat-v1-stable&repository-name=lobe-chat-v1-stable)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Code1811/v1last/tree/v1last&env=ACCESS_CODE,GOOGLE_API_KEY,KEY_VAULTS_SECRET&project-name=lobe-chat-v1-stable&repository-name=lobe-chat-v1-stable)
 
 ## 🚀 Key Fixes in this Fork:
 
