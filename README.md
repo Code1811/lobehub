@@ -1,3 +1,30 @@
+# 🛡️ LobeChat v1.142 Stable (No-Database Edition)
+
+This is a specialized fork of LobeChat v1.x, meticulously patched to work on **Vercel Free Tier** without the need for a PostgreSQL database or complex server-side authentication.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/tree/v1last&env=ACCESS_CODE,GOOGLE_API_KEY,KEY_VAULTS_SECRET&project-name=lobe-chat-v1-stable&repository-name=lobe-chat-v1-stable)
+
+## 🚀 Key Fixes in this Fork:
+
+Unlike the official v2.0+ or unpatched v1.x releases, this version includes:
+
+-   **Fixed Build Errors**: Patched `next-mdx-remote` vulnerability (v6.0.0+) and TypeScript dependency conflicts.
+-   **No Database Required**: Fully functional in "Client-only" mode using your browser's local storage and WebRTC sync.
+-   **Extended Build Timeouts**: Increased `staticPageGenerationTimeout` to prevent Vercel from failing during the Changelog generation.
+-   **Classic Access Control**: Simple and secure login via the `ACCESS_CODE` environment variable.
+-   **Optimized for Gemini**: Perfect for hosting your own Gemini 1.5 Pro / Flash interface for free.
+
+## 🛠️ Installation
+
+1. Click the **Deploy** button above.
+2. Enter your `GOOGLE_API_KEY` (from Google AI Studio).
+3. Set your `ACCESS_CODE` (this will be your site password).
+4. Provide a random string for `KEY_VAULTS_SECRET` (to encrypt local data).
+5. Wait for the build to finish (~15 mins) and enjoy your private AI chat!
+
+---
+
+
 <div align="center"><a name="readme-top"></a>
 
 [![][image-banner]][vercel-link]
